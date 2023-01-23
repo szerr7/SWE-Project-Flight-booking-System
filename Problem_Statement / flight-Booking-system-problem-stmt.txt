@@ -1,0 +1,21 @@
+
+"The flight booking system project aims to create a comprehensive and user-friendly software solution 
+for individuals  to search, compare and book flights, manage their reservations, and 
+receive updates on their flight status. 
+
+It requires the user to login with their email and password. The system allows the passenger to search for flights 
+that are available between two preferred travel cities, namely the “Departure Airport” and “Arrival Airport” on 
+specified departure and arrival dates. The system displays all the flight’s details such as flight number, Airline,
+ and duration of flight etc.
+ 
+ The software should have the ability to search for flights based on different criteria such as departure and arrival
+cities, dates, number of stops,and preferred airlines.
+
+ Additionally, the system should provide a secure payment gateway for booking confirmation, and it should also 
+support payment through multiple channels.The software should be able to send out notifications to users regarding
+flight schedule changes, cancellations,and other important information. The system should also allow users to manage 
+their reservations, make changes to their bookings, and view their booking history. In addition, the system should 
+provide customer support and helpdesk for users with any queries or issues related to their booking."
+
+
+
