@@ -17,5 +17,8 @@ flight schedule changes, cancellations,and other important information. The syst
 their reservations, make changes to their bookings, and view their booking history. In addition, the system should 
 provide customer support and helpdesk for users with any queries or issues related to their booking."
 
+Also, the customer can cancel or reschedule their Reservation to their preferred valid dates. 
+The user can then log out of the system at their pleasure.
+
 
 
