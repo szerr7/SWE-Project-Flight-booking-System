@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>  
+ 
+    <!-- Base Define -->
+    <definition name="base.definition" 
+        template="/WEB-INF/layouts/classic.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/basefragments/_header.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/basefragments/_footer.jsp" />  
+    </definition>  
+ 
+    <!-- Home Page  -->
+    <definition name="welcome" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_welocme.jsp" />  
+    </definition>  
+    
+      <definition name="home" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_home.jsp" />  
+    </definition>  
+   
+    
+    <definition name="login" extends="base.definition">  
+        <put-attribute name="title" value="Login" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_login.jsp" />  
+    </definition> 
+    
+    
+     <definition name="airport" extends="base.definition">  
+        <put-attribute name="title" value="Airport" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_airport.jsp" />  
+    </definition> 
+         <definition name="airportList" extends="base.definition">  
+        <put-attribute name="title" value="Airport List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_airportList.jsp" />  
+    </definition> 
+    
+    
+    <definition name="flight" extends="base.definition">  
+        <put-attribute name="title" value="Flight" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_flight.jsp" />  
+    </definition> 
+    
+      <definition name="flightList" extends="base.definition">  
+        <put-attribute name="title" value="Flight List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_flightList.jsp" />  
+    </definition> 
+     
+    <definition name="manage" extends="base.definition">  
+        <put-attribute name="title" value="Manage Flight" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_manageFlight.jsp" />  
+    </definition> 
+    
+    <definition name="manageList" extends="base.definition">  
+        <put-attribute name="title" value="Manage Flight List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_manageFlightList.jsp" />  
+    </definition> 
+    
+    <definition name="signUp" extends="base.definition">  
+        <put-attribute name="title" value="Registration" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_registration.jsp" />  
+    </definition> 
+    
+    
+     <definition name="myprofile" extends="base.definition">  
+        <put-attribute name="title" value="My Profile" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_myProfile.jsp" />  
+    </definition>
+    
+     <definition name="forgetPassword" extends="base.definition">  
+        <put-attribute name="title" value="Forget Password" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_forgetPassword.jsp" />  
+    </definition>
+    
+     <definition name="changePassword" extends="base.definition">  
+        <put-attribute name="title" value="Change Password" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_changePassword.jsp" />  
+    </definition>
+    
+    <definition name="invoice" extends="base.definition">  
+        <put-attribute name="title" value="Invoice" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_invoice.jsp" />  
+    </definition> 
+    
+     <definition name="invoiceList" extends="base.definition">  
+        <put-attribute name="title" value="Invoice List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_invoiceList.jsp" />  
+    </definition> 
+    
+    <definition name="demo" extends="base.definition">  
+        <put-attribute name="title" value="Demo" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_demo.jsp" />  
+    </definition> 
+     <definition name="payment" extends="base.definition">  
+        <put-attribute name="title" value="Payement" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_payment.jsp" />  
+    </definition> 
+    
+     <definition name="success" extends="base.definition">  
+        <put-attribute name="title" value="Detail" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_sucesss.jsp" />  
+    </definition> 
+    
+     <definition name="invoiceDetail" extends="base.definition">  
+        <put-attribute name="title" value="InvoiceDetail" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_invoiceDetail.jsp" />  
+    </definition> 
+       <definition name="invoiceDetailList" extends="base.definition">  
+        <put-attribute name="title" value="Invoice Detail List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_invoiceDetailList.jsp" />  
+    </definition> 
+  
+</tiles-definitions> 
